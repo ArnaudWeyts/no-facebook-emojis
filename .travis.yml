@@ -1,7 +1,6 @@
 language: shell
 before_install:
-- openssl aes-256-cbc -K $encrypted_997071d05769_key -iv $encrypted_997071d05769_iv
-  -in chrome.pem.enc -out chrome.pem -d
+- openssl aes-256-cbc -K $encrypted_997071d05769_key -iv $encrypted_997071d05769_iv -in chrome.pem.enc -out chrome.pem -d
 script:
   - ./src/buildscripts/crxmake.sh chrome chrome.pem chrome.crx
   - # ./src/buildscripts/xpimake.sh firefox
