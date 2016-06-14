@@ -1,0 +1,34 @@
+{
+  "title": "no-facebook-emojis",
+  "name": "no-facebook-emojis",
+  "version": "0.0.1",
+  "description": "Gets rid of those ugly facebook emojis.",
+  "main": "index.js",
+  "dependencies": {
+    "jpm": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haroenv/no-facebook-emojis.git"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "emoji",
+    "remove"
+  ],
+  "author": "Haroen Viaene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Haroenv/no-facebook-emojis/issues"
+  },
+  "homepage": "https://github.com/Haroenv/no-facebook-emojis#readme"
+}
