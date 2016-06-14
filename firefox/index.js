@@ -2,6 +2,6 @@ var self = require("sdk/self");
 var pageMod = require("sdk/page-mod");
 
 pageMod.PageMod({
-  include: "*",
-  contentScriptFile: self.data.url("shillanator.js")
+  include: ["*.messenger.com","*.facebook.com"],
+  contentScriptFile: self.data.url("no-facebook-emojis.js")
 });
